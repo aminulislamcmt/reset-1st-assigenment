@@ -1,0 +1,45 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.flixable-area{
+    display: flex;
+    margin-bottom: 150px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    height: 55px;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    padding-left: 8%;
+    padding: right;
+}
+.half-width img{
+    width: 88%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,black);
+    color:white;
+    font-weight: 700px;
+    padding: 10px 40px;
+    border-radius: 8px; 
+
+}
+.letest-w-p{
+    text-decoration: none;
+    text-align: center;
+    height: 700px;
+}
+.box-images{
+    padding: right;
+}
+.box-images img{
+    width: 28%;
+}
