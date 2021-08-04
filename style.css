@@ -6,11 +6,11 @@ body{
     display: flex;
     margin-bottom: 150px;
 }
-h1{
+.half-width h1{
     font-size: 50px;
 }
-h2{
-    height: 55px;
+.half-width h2{
+    font-size: 35px;
 }
 .orange-color{
     color: orange;
@@ -25,21 +25,51 @@ h2{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,black);
+    background-image: linear-gradient(orange,red);
     color:white;
     font-weight: 700px;
     padding: 10px 40px;
     border-radius: 8px; 
-
+}
+.letest-area{
+    height: 600px;
+    display: block;
 }
 .letest-w-p{
     text-decoration: none;
     text-align: center;
-    height: 700px;
+    height: 100px;
 }
 .box-images{
-    padding: right;
+    float: right;
+    height: 300px;
+    width: 400px;
+    padding: 1%;
 }
 .box-images img{
-    width: 28%;
+    height: 300px;
+    width:400px;
+}
+h4{
+    text-align: center;
+}
+.icon-area{
+    height: 100%;
+    width: 100%;
+    
+}
+.icon-area img{
+    float: left;
+}
+footer{
+    display: block;
+}
+footer .all-icon img{
+    width: 80px;
+    height: 80px;
+}
+.all-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
